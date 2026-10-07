@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#EAF6FB"/>
+  <circle cx="520" cy="60" r="30" fill="#FFD93D"/>
+
+  <!-- Bicycle -->
+  <g stroke="#333" stroke-width="6" fill="none" stroke-linecap="round">
+    <circle cx="170" cy="300" r="45"/>
+    <circle cx="430" cy="300" r="45"/>
+    <path d="M170 300 L260 300 L310 210 L200 210 L170 300"/>
+    <path d="M260 300 L320 210 L380 210"/>
+    <path d="M430 300 L380 210"/>
+    <path d="M380 210 L395 185"/>
+    <path d="M385 185 L420 185"/>
+    <path d="M200 210 L190 185"/>
+    <path d="M175 185 L210 185"/>
+  </g>
+  <!-- Pedals -->
+  <circle cx="260" cy="300" r="10" fill="#333"/>
+  <path d="M260 300 L245 330 M260 300 L275 270" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Pelican body -->
+  <ellipse cx="300" cy="160" rx="70" ry="45" fill="#F5F5F5" stroke="#999" stroke-width="3"/>
+  <!-- Tail -->
+  <path d="M232 160 L190 140 L195 175 Z" fill="#E8E8E8" stroke="#999" stroke-width="3"/>
+  <!-- Wing -->
+  <path d="M290 150 Q330 120 360 150 Q330 175 290 165 Z" fill="#E0E0E0" stroke="#999" stroke-width="3"/>
+  <!-- Neck -->
+  <path d="M355 135 Q385 110 375 75" fill="none" stroke="#F5F5F5" stroke-width="26" stroke-linecap="round"/>
+  <path d="M355 135 Q385 110 375 75" fill="none" stroke="#999" stroke-width="30" stroke-linecap="round" opacity="0.0"/>
+  <!-- Head -->
+  <circle cx="375" cy="70" r="20" fill="#F5F5F5" stroke="#999" stroke-width="3"/>
+  <!-- Eye -->
+  <circle cx="382" cy="64" r="4" fill="#333"/>
+  <!-- Beak -->
+  <path d="M393 64 L460 78 Q465 84 455 90 L390 80 Z" fill="#F4A261" stroke="#D97B3F" stroke-width="2"/>
+  <!-- Pouch -->
+  <path d="M395 80 Q425 110 452 82 Q425 95 395 80 Z" fill="#F8C89A" stroke="#D97B3F" stroke-width="2"/>
+
+  <!-- Legs -->
+  <path d="M280 200 L265 260 L275 268" fill="none" stroke="#F4A261" stroke-width="8" stroke-linecap="round"/>
+  <path d="M320 200 L310 250 L320 265" fill="none" stroke="#F4A261" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Ground -->
+  <rect x="0" y="345" width="600" height="55" fill="#78C850"/>
+</svg>
